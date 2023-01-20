@@ -14,10 +14,10 @@ pygmentsStyle = "perldoc"
 # The settings below are used throughout the theme.
 # Please update!
 [params]
-  title = ""
-  tagline = "Gracias mi Jesús"
+  title = "mi tesoro"
+  tagline = ""
   author = "ney perea"
-  authorImgPath = "/img/author.png"
+  authorImgPath = "/img/jhesaut.png"
   authorBlurb = "just a girl who loves christ"
 
 # If you do not want a social icon, just comment it out
