@@ -112,6 +112,210 @@
     
     <div class="pad">
 <div class="date">
+    <time pubdate="2023-01-20">January 20, 2023</time>
+    <span class="author">by ney perea</span>
+</div>
+
+<article>
+    <h2><a href="https://jhesne.netlify.app/posts/post4/">Post4</a></h2>
+    <div class="tags">
+        
+    </div>
+    <h1 id="qué-es-postgresqlhttpsbloginfranetworkingcomservidor-postgresql"><strong><a href="https://blog.infranetworking.com/servidor-postgresql/">¿Qué es PostgreSQL?</a></strong></h1>
+<h2 id="para-qué-sirve-características-e-instalación"><strong>Para qué sirve, características e instalación.</strong></h2>
+<p>Es un sistema de código abierto de administración de bases de datos del tipo relacional, aunque también es posible ejecutar consultas que sean no relaciones. En este sistema, las consultas relacionales se basan en SQL, mientras que las no relacionales hacen uso de JSON.</p>
+<ul>
+<li>Es de código abierto.</li>
+<li>Es gratuito.</li>
+<li>Ese multiplatforma.</li>
+<li>Es facil de usar.</li>
+<li>Permite manejar gran volumen de datos.</li>
+<li>Soporte total de ACID.</li>
+</ul>
+<p>Dos detalles a destacar de PostgreSQL es que posee data types (tipos de datos) avanzados y permite ejecutar optimizaciones de rendimiento avanzadas, que son características que por lo general solo se ven en sistemas de bases de datos comerciales, como por ejemplo SQL Server de Microsoft u Oracle de la compañía homónima.</p>
+<h2 id="cómo-administrar-postgresql-mediante-interfaz-gráfica"><strong>Cómo administrar PostgreSQL mediante interfaz gráfica.</strong></h2>
+<p><strong>pgAdmin:</strong> es probablemente el gestor de PostgreSQL más conocido y utilizado del mundo. Es fácil de utilizar, intuitivo y compatible con gran cantidad de sistemas operativos, además claro de ser gratuito. Estas características han hecho que se vuelva una de las herramientas más utilizadas a la hora de administrar bases de datos en Postgres. Inicialmente era conocido como pgManager pero con el paso del tiempo cambió de nombre. Su versión más reciente es pgAdmin 4 y podemos correrlo en diversos entornos como Windows, Linux y macOS.</p>
+<p><strong>PhpPgAdmin:</strong> esta herramienta es muy parecida a phpMyAdmin, más incluso que la ya nombrada pgAdmin. Si conoces phpMyAdmin entonces no tendrás muchos problemas para utilizarla pues funciona de manera muy similar. En el menú izquierdo del programa se despliegan los servidores de PostgreSQL y las bases de datos que contiene cada uno, y del lado derecho tenemos diversas herramientas y funcione como por ejemplo exportar e importar, ajustar privilegios, editar campos, etc.</p>
+<p><strong>DBeaver:</strong> es un conocido programa para administrar bases de datos. No solo es compatible con Postgres, sino también con muchos motores más como por ejemplo MySQL, Oracle, SQL Server, MariaDB, etc. Este estupendo gestor está disponible para distintos sistemas operativos y es completamente gratuito. Sus características y funciones hace que sea una de las herramientas preferidas de gran cantidad de usuarios, desarrolladores y administradores de servidores de bases de datos que trabajan a diario con Postgres.</p>
+<h2 id="comparación-de-postgresql-vs-mysql"><strong>Comparación de PostgreSQL vs MySQL</strong></h2>
+<ul>
+<li>
+<p>En lo que refiere a las consultas o queries, las soportadas por MySQL tienden a ser más simples,
+mientras que PostgreSQL soporta queries más complejas, lo cual le ha válido el título del sistema de bases de datos relacionales más avanzado del mercado.</p>
+</li>
+<li>
+<p>En términos de rendimiento cada uno tiene su situación para brillar: MySQL es mejor si se manejan bajos volúmenes de datos, es decir, si tenemos bases de datos pequeñas o medianas a las cuales se hagan una cantidad de consultas no muy alta.
+Por su parte, PostgreSQL es mejor a la hora de manejar volúmenes de datos grandes y se suele usar más cuando se tienen bases de datos grandes y con alta cantidad de consultas.</p>
+</li>
+<li>
+<p>Si miramos el cumplimiento de ACID nos toparemos conque MySQL no lo soporta al 100%, sino solamente las tablas que hagan uso de NDB Cluster o InnoDB,
+mientras que PostgreSQL sí lo soporta completo en todos los casos.</p>
+</li>
+</ul>
+<p><strong>Resumiendo</strong>, por ahora ambos son gratis, así que debemos elegir basándonos en rendimiento más que nada: si quieres un sistema para bases de datos medianas o pequeñas y consultas no muy complejas ni muy abundantes ve por MySQL, de lo contrario PostgreSQL es mejor opción si vas a manejar un volumen notable de datos.</p>
+<h1 id="introducción-a-supabasehttpssupabasecomdocsguidesdatabase"><a href="https://supabase.com/docs/guides/database">Introducción a Supabase</a></h1>
+<p>Supabase is an open source Firebase alternative providing all the backend features you need to build a product. You can use it completely, or just the features you need.</p>
+<p>Start a project with the <a href="https://app.supabase.com/">hosted</a> platform or learn how to <a href="https://supabase.com/docs/guides/hosting/overview">host Supabase</a> yourself.</p>
+<h2 id="postgres-or-postgresql"><strong>Postgres or PostgreSQL?</strong></h2>
+<p>PostgreSQL the database was derived from the POSTGRES Project, a package written at the University of California at Berkeley in 1986. This package included a query language called &ldquo;PostQUEL&rdquo;.</p>
+<p>In 1994, Postgres95 was built on top of POSTGRES code, adding an SQL language interpreter as a replacement for PostQUEL. Eventually, Postgres95 was renamed to PostgreSQL to reflect the SQL query capability.</p>
+<p>After this, many people referred to it as Postgres since it&rsquo;s less prone to confusion. Supabase is all about simplicity, so we also refer to it as Postgres.</p>
+<h2 id="videos-misiontic"><strong>Videos Misiontic</strong></h2>
+<ul>
+<li>
+<p><a href="https://youtu.be/PWO2ZREcS7s">generalidades de base de datos.</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/l8114lXm8Eo">Crear una base de datos en Supabase.</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/A0Z9fmWFfNA?t=17">Java Spring Boot Instalación de dependencias</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/n66i7B47sx8">Java Spring Boot de clases a entidades.</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/J82dHQsCv2Q">Usar un repositorio para leer datos.</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/fvz_M4VFcqY">Usar un repositorio para crear datos</a></p>
+</li>
+<li>
+<p><a href="https://mystery.knightlab.com/">juego para aprender SQL</a></p>
+</li>
+</ul>
+<h1 id="entidades-de-springboot"><strong>Entidades de springboot</strong></h1>
+<p><strong><a href="https://docs.oracle.com/javaee/6/tutorial/doc/bnbqa.html#:%7E:text=An%20entity%20is%20a%20lightweight,entities%20can%20use%20helper%20classes">what is a java entity?</a></strong></p>
+<p><strong><a href="https://stackoverflow.com/questions/63414381/what-is-entity-in-spring-jpa#:~:text=An%20entity%20is%20a%20lightweight,entities%20can%20use%20helper%20classes.">what is Entity en Spring JPA?</a></strong></p>
+<p><strong><a href="https://zetcode.com/springboot/repository/#:~:text=A%20repository%20is%20a%20mechanism,be%20autodetected%20through%20classpath%20scanning">repositorio de springboot</a></strong></p>
+<p><strong><a href="https://docs.spring.io/spring-data/data-commons/docs/1.6.1.RELEASE/reference/html/repositories.html">working with springboot repositories</a></strong></p>
+<h1 id="teoria-springboot-gustavo-peiretti"><strong>Teoria springboot gustavo peiretti</strong></h1>
+<ol>
+<li>
+<p><a href="https://gustavopeiretti.com/spring-boot-entities-conceptos-iniciales/">ENTIDADES</a></p>
+</li>
+<li>
+<p><a href="https://gustavopeiretti.com/spring-boot-componente-repository/">REPOSITORIOS</a></p>
+</li>
+<li>
+<p><a href="https://gustavopeiretti.com/spring-boot-componente-service/">SERVICIOS</a></p>
+</li>
+<li>
+<p><a href="">CONTROLADORES</a></p>
+</li>
+<li>
+<p><a href="https://gustavopeiretti.com/spring-boot-componentes-estereotipos/">ESTREROTIPOS</a></p>
+</li>
+<li>
+<p><a href="https://gustavopeiretti.com/spring-boot-database-conexion-config/">CONEXION A BASE DE DATOS</a></p>
+</li>
+<li>
+<p><a href="https://gustavopeiretti.com/spring-injection-dependencies/">INJECCION DE DEPENDENCIA</a></p>
+</li>
+</ol>
+
+</article></div>
+    <div class="pad"></div>
+
+    
+
+    
+    <div class="pad">
+<div class="date">
+    <time pubdate="2023-01-20">January 20, 2023</time>
+    <span class="author">by ney perea</span>
+</div>
+
+<article>
+    <h2><a href="https://jhesne.netlify.app/posts/post3/">Post3</a></h2>
+    <div class="tags">
+        
+    </div>
+    <p><a href="https://gohugo.io/"><img src="https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg" alt=""></a>
+<br>
+es un creador de sitios web estáticos que le permite crear un sitio web con poco o ningún código. Los generadores de sitios estáticos generalmente le permiten escribir su contenido en un lenguaje de marcado simple, como Markdown.</p>
+<h2 id="qué-es-un-sitio-web-estático">¿Qué es un sitio web estático?.</h2>
+<p>Un sitio web estático es un sitio cuyas páginas están diseñadas para que el contenido permanezca constante para todos los visitantes y no cambie, no hay una base de datos asociada con el sitio web a través del cual se cambia el contenido, y nadie puede cambiar o actualizar el contenido excepto por regresando al programador que actualiza las páginas y luego las vuelve a cargar al servidor nuevamente. Por lo general, un sitio web estático consta de una o varias páginas que son independientes entre sí, cada una de las cuales representa un archivo HTML y archivos asociados, como archivos CSS o Javascript.</p>
+<h2 id="chocolatey">Chocolatey.</h2>
+<p>es un administrador de paququete para windows. Lo podemos encontrar en <strong><a href="https://chocolatey.org/">pargina de chocolatey</a></strong>.
+<img src="https://chocolatey.org/assets/images/global-shared/logo-square.svg" alt=""></p>
+<p>Es una de las formas mas faciles de instalar hugo;  <strong><a href="https://chocolatey.org/why-chocolatey">¿Por qué usar chocolatey?</a></strong></p>
+<h2 id="instalacion-de-hugo-con-chocolatey">Instalacion de Hugo con Chocolatey.</h2>
+<p>Desde <strong>powerShell</strong> instala chocolatey
+con el siguente comando:</p>
+<p><code>choco install hugo-extended</code></p>
+<p>luego instala hugo usando el gestor de paquetes para windows chocolatey:</p>
+<p><code>choco install hugo-extended -confirm</code></p>
+<p>Para verificar que hugo quedó correctamente instalado usamos el comando:</p>
+<p><code>hugo verision</code>
+debe mostrar algo como esto:</p>
+<p><code>hugo v0.109.0-47b12b83e636224e5e601813ff3e6790c191e371+extended windows/amd64 BuildDate=2022-12-23T10:38:11Z VendorInfo=gohugoio</code></p>
+<h2 id="hugo-vs-hugo-extended">Hugo vs Hugo Extended</h2>
+<p>En la página de Hugo, cuando se explica la instalación para Windows, mencionan también la posibilidad de instalar el paquete &ldquo;Hugo Extended&rdquo;. Básicamente es el mismo Hugo pero con soporte para la compilación de Sass/SCSS. Podría ser interesante si vamos a usar el  preprocesador de CSS.</p>
+<hr>
+<h2 id="comandos-utiles-desde-la-terminal">Comandos utiles desde la terminal.</h2>
+<p><code>hugo check</code>  – ejecuta varias comprobaciones de verificación</p>
+<p><code>hugo config</code> – muestra la configuración de un sitio Hugo.</p>
+<p><code>hugo convert</code> – convierte contenidos a diferentes formatos.
+hugo deploy – despliega tu sitio en un proveedor de la nube.</p>
+<p><code>hugo env </code>– muestra la versión de Hugo y la información del entorno.</p>
+<p><code>hugo gen</code> – proporciona acceso a varios generadores.</p>
+<p><code>hugo help </code>– muestra información sobre un comando.</p>
+<p><code>hugo import</code> – permite importar un sitio desde otro lugar</p>
+<p><code>hugo list </code>– muestra una lista de varios tipos de contenido</p>
+<p><code>hugo mod </code>– proporciona acceso a varios ayudantes de módulos</p>
+<p><code>hugo new</code> – te permite crear nuevos contenidos para tu sitio</p>
+<p><code>hugo server</code> – inicia un servidor de desarrollo local</p>
+<p><code>hugo version</code> – muestra la versión actual de Hugo</p>
+<h2 id="sitios-donde-consultar-de-hugo">sitios donde consultar de hugo:</h2>
+<h3 id="primeros-pasos-con-hugohttpsdesarrollowebcomarticulosprimeros-pasos-hugo"><a href="https://desarrolloweb.com/articulos/primeros-pasos-hugo">Primeros pasos con Hugo</a></h3>
+<h3 id="cómo-construir-un-sitio-estático-rapidísimo-con-hugohttpskinstacomesbloghugo-sitio-estaticotexten20tc3a9rminos20de20rendimiento20brutocompletar20mc3a1s20de20media20hora"><a href="https://kinsta.com/es/blog/hugo-sitio-estatico/#:~:text=En%20t%C3%A9rminos%20de%20rendimiento%20bruto,completar%20m%C3%A1s%20de%20media%20hora.">Cómo construir un sitio estático rapidísimo con Hugo</a></h3>
+<h3 id="qué-es-el-generador-de-sitios-web-persistentes-de-hugohttpswwwdz-techscomeshugo-static-site-generator"><a href="https://www.dz-techs.com/es/hugo-static-site-generator">¿Qué es el Generador de Sitios Web Persistentes de Hugo?</a></h3>
+<h2 id="crear-un-sitio-hugo">crear un sitio hugo</h2>
+<p><code>hugo new site primeros-pasos-hugo</code></p>
+<p><img src="/themes/tale-hugo/static/images/captura_crear_sitio.png" alt="">
+<img src="/themes/tale-hugo/static/images/captura_live_server.png" alt=""></p>
+<h3 id="añadir-un-tema">Añadir un tema</h3>
+<p>Los temas de Hugo nos permiten crear un sitio web con un aspecto
+atractivo y con mínimo esfuerzo. En el sitio web de Hugo una sección <strong><a href="https://themes.gohugo.io/">completamente dedicada a themes</a></strong>, donde hay muchas alternativas interesantes y adaptables a todos los tipos de proyecto.
+Hay temas realmente atractivos en el directorio de temas de Hugo, pero yo voy a usar uno un poco más sencillo,Trabajaremos con este theme, que aunque es sencillo también resulta bastante limpio: <a href="https://github.com/EmielH/tale-hugo">https://github.com/EmielH/tale-hugo</a></p>
+<p>se va al subdirectorio theme y se ejecuta:</p>
+<p><code>git submodule add  https://github.com/EmielH/tale-hugo </code></p>
+<p>añade el tema al archivo config.toml</p>
+<p><code>echo &quot;theme = 'tale-hugo'&quot; &gt;&gt; config.toml</code></p>
+<p>o lo modificas directamente desde visual studio code:
+añades al archivo &ldquo;config.toml&rdquo; la siguiente linea:theme = &rsquo;tale-hugo'.</p>
+<p>para probar como vamos ejecutamos:
+<code>hugo server</code> y nos arranca un liveserver en la siguente dirección:
+http://localhost:1313/</p>
+<p>ahora podemos llenar el tema con nuestra propia informacion. para ello el comando</p>
+<p><code>hugo new posts/post1.md</code> crea el siguente archivo:
+<code>content/post1.md</code>
+este se edita en <strong>Markdown</strong>, esta es la cabecera de cada post
+<img src="/themes/tale-hugo/images/captura_live_server.png" alt=""></p>
+<p>cuando el draft esta en true el contenido de este post no se publica, se puede revisar en modo develpment con el siguente comando:</p>
+<p><code>hugo server --buildDrafts </code></p>
+<p><code>hugo server -D</code></p>
+<h3 id="añadir-contenido">Añadir contenido</h3>
+<p><a href="https://gohugo.io/getting-started/quick-start/#add-content">por aqui voy</a></p>
+<p><a href="https://github.com/EmielH/tale-hugo/">tener en cuenta la documentacion del tema</a></p>
+<hr>
+algo suelto por aca 
+shortcodes.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/w7Ft2ymGmfc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<hr>
+</article></div>
+    <div class="pad"></div>
+
+    
+
+    
+    <div class="pad">
+<div class="date">
     <time pubdate="2023-01-18">January 18, 2023</time>
     <span class="author">by ney perea</span>
 </div>
@@ -183,6 +387,18 @@ María regresó a Colombia con una mente llena de recuerdos y experiencias incre
         <h3>Latest Articles</h3>
         <div class="pure-menu pure-menu-open">
             <ul class="pure-menu-list">
+                
+                <li class="pure-menu-item">
+                    <a href="https://jhesne.netlify.app/posts/post4/" class="pure-menu-link">Post4<br>
+                        <small></small>
+                    </a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="https://jhesne.netlify.app/posts/post3/" class="pure-menu-link">Post3<br>
+                        <small></small>
+                    </a>
+                </li>
                 
                 <li class="pure-menu-item">
                     <a href="https://jhesne.netlify.app/posts/post2/" class="pure-menu-link">crear una imagen en Hugo<br>
