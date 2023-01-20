@@ -15,9 +15,9 @@ pygmentsStyle = "perldoc"
 # Please update!
 [params]
   title = "mi tesoro"
-  tagline = ""
+  tagline = "gracias señor Jhesus"
   author = "ney perea"
-  authorImgPath = "/img/jhesaut.png"
+  authorImgPath = "/img/author.png"
   authorBlurb = "just a girl who loves christ"
 
 # If you do not want a social icon, just comment it out
