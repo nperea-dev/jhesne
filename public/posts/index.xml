@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on gruas de muelle</title>
+    <link>https://example.com/posts/</link>
+    <description>Recent content in Posts on gruas de muelle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-co</language>
+    <lastBuildDate>Wed, 18 Jan 2023 22:11:15 -0500</lastBuildDate><atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>crear una imagen en Hugo</title>
+      <link>https://example.com/posts/post2/</link>
+      <pubDate>Wed, 18 Jan 2023 22:11:15 -0500</pubDate>
+      
+      <guid>https://example.com/posts/post2/</guid>
+      <description>Para insertar una imagen en Hugo, primero debes colocar la imagen en la carpeta &amp;ldquo;static/images&amp;rdquo; dentro de tu proyecto de Hugo. Luego, en tu archivo de markdown donde quieres insertar la imagen, utiliza el siguiente código:
+![descripcion de la imagen](/images/nombre_de_la_imagen.extension)
+Donde &amp;ldquo;descripcion de la imagen&amp;rdquo; es el texto que se mostrará si la imagen no se carga correctamente, y &amp;ldquo;/images/nombre_de_la_imagen.extension&amp;rdquo; es la ruta de la imagen en tu proyecto. Asegúrate de que la ruta sea correcta.</description>
+    </item>
+    
+    <item>
+      <title>Dias de playa</title>
+      <link>https://example.com/posts/post1/</link>
+      <pubDate>Wed, 18 Jan 2023 21:53:21 -0500</pubDate>
+      
+      <guid>https://example.com/posts/post1/</guid>
+      <description>Era una tarde de verano en la costa colombiana. La brisa marina refrescaba el aire y el sol brillaba en el cielo azul. María, una joven de 20 años, estaba sentada en la playa, disfrutando de la vista. Ella amaba la costa y pasaba todo el tiempo libre que podía allí.
+Pero lo que realmente amaba María era viajar. Había viajado por toda Colombia y había visitado varios países de América Latina.</description>
+    </item>
+    
+  </channel>
+</rss>

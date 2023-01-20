@@ -1,0 +1,3 @@
+[submodule "themes/hugo-theme-prav"]
+	path = themes/hugo-theme-prav
+	url = https://github.com/pravin/hugo-theme-prav.git
