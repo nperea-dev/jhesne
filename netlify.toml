@@ -1,0 +1,11 @@
+# example netlify.toml
+[build]
+  command = "hugo"
+  functions = "netlify/functions"
+  publish = "public"
+
+  # example netlify.toml
+[dev]
+  command = "hugo"
+  functions = "netlify/functions"
+  publish = "public"
