@@ -1,4 +1,4 @@
-baseURL = "http://nperea-dev.github.io.chicajhes/"
+baseURL = "https://jhesne.netlify.app/"
 languageCode = "es-co"
 title = "gruas de muelle"
 theme = "hugo-theme-prav"
