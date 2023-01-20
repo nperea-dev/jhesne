@@ -1,6 +1,6 @@
 baseURL = "https://jhesne.netlify.app/"
 languageCode = "es-co"
-title = "gruas de muelle"
+title = "pretty jhes"
 theme = "hugo-theme-prav"
 
 pygmentsCodeFences = "true"
@@ -14,11 +14,11 @@ pygmentsStyle = "perldoc"
 # The settings below are used throughout the theme.
 # Please update!
 [params]
-  title = "Hugo Theme - Prav"
-  tagline = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  title = ""
+  tagline = "Gracias mi Jesús"
   author = "ney perea"
   authorImgPath = "/img/author.png"
-  authorBlurb = "Something about me"
+  authorBlurb = "just a girl who loves christ"
 
 # If you do not want a social icon, just comment it out
 # Please update the example values!
@@ -26,9 +26,7 @@ pygmentsStyle = "perldoc"
   email = "mailto:example@example.com"
   facebook = "https://www.facebook.com/example"
   twitter = "http://twitter.com/example"
-  medium = "https://www.medium.com/@example"
-  github = "https://github.com/example"
-  linkedin = "http://uk.linkedin.com/in/example"
+  
  
 
 # Set unsafe mode to allow markdownify to work with goldmark
