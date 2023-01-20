@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on gruas de muelle</title>
-    <link>https://example.com/tags/</link>
+    <link>http://nperea-dev.github.io.chicajhes/tags/</link>
     <description>Recent content in Tags on gruas de muelle</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-co</language><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>es-co</language><atom:link href="http://nperea-dev.github.io.chicajhes/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

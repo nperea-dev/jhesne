@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "http://nperea-dev.github.io.chicajhes/"
 languageCode = "es-co"
 title = "gruas de muelle"
 theme = "hugo-theme-prav"
