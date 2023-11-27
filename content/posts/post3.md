@@ -1,13 +1,13 @@
 ---
-title: "hugo desde cero "
+title: "Hugo desde cero "
 date: 2023-01-20T07:43:36-05:00
 draft: false
 ---
 
 
 [![](https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg)](https://gohugo.io/)
-<br>
- es un creador de sitios web estáticos que le permite crear un sitio web con poco o ningún código. Los generadores de sitios estáticos generalmente le permiten escribir su contenido en un lenguaje de marcado simple, como Markdown.
+
+ Es un generador  de sitios web estáticos que te permite crear un sitio web con poco o ningún código. Los generadores de sitios estáticos generalmente le permiten escribir su contenido en un lenguaje de marcado simple, como Markdown.
 ## ¿Qué es un sitio web estático?.
 Un sitio web estático es un sitio cuyas páginas están diseñadas para que el contenido permanezca constante para todos los visitantes y no cambie, no hay una base de datos asociada con el sitio web a través del cual se cambia el contenido, y nadie puede cambiar o actualizar el contenido excepto por regresando al programador que actualiza las páginas y luego las vuelve a cargar al servidor nuevamente. Por lo general, un sitio web estático consta de una o varias páginas que son independientes entre sí, cada una de las cuales representa un archivo HTML y archivos asociados, como archivos CSS o Javascript.
 
@@ -121,6 +121,8 @@ cuando el draft esta en true el contenido de este post no se publica, se puede r
 
 [tener en cuenta la documentacion del tema](https://github.com/EmielH/tale-hugo/)
 
+[best hugo themes](https://www.besthugothemes.com/)
+
 <hr>
 algo suelto por aca 
 shortcodes.
@@ -128,3 +130,10 @@ shortcodes.
 {{< youtube w7Ft2ymGmfc >}}
 
 <hr>
+
+
+
+
+este sitio tiene info util de hugo
+
+[https://binario.netlify.app/](https://binario.netlify.app/)
