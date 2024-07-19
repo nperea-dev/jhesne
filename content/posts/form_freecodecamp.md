@@ -1,6 +1,8 @@
 ---
 title: "realizar un formulario freecodecamp"
 date: 2023-11-19T08:43:36-05:00
+draft: true 
+
 
 ---
 

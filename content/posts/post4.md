@@ -1,7 +1,7 @@
 ---
 title: "conceptos de postgresSQL"
 date: 2023-01-20T07:44:13-05:00
-draft: false
+draft: true
 ---
 
 
